@@ -1,0 +1,51 @@
+{
+  "objectName" : "mossanteleporterTier0",
+  "colonyTags" : ["mossan"],
+  "printable" : false,
+  "rarity" : "Common",
+  
+  "category" : "decorative",
+  "description" : "Trusty teleporter, what would we do without you?",
+  "shortdescription" : "Teleporter",
+  "race" : "mossan",
+
+  "apexDescription" : "The ship's teleporter. It has no power.",
+  "avianDescription" : "The teleporter! If only if it was powered up.",
+  "floranDescription" : "Teleporter. This one dead.",
+  "glitchDescription" : "Disappointed. A teleporter without power.",
+  "humanDescription" : "A teleporter! Too bad it isn't powered up.",
+  "hylotlDescription" : "This teleporter is off.",
+  "novakidDescription" : "This ol' teleporter doesn't seem to be workin'.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [ ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "mossanteleportericonTier0.png",
+  "orientations" : [
+    {
+      "image" : "mossanteleporterTier0.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid",
+
+      "sitPosition" : [-8, 8]
+    }
+  ],
+
+  "animation" : "/objects/noisy/noisy.animation",
+
+  "scripts" : [
+    "/objects/noisy/noisy.lua"
+  ],
+  
+  "sounds" : [ "/sfx/interface/clickon_error.ogg" ]
+}

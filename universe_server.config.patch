@@ -1,0 +1,7 @@
+[
+  {
+  "op" : "replace",
+  "path" : "/speciesShips/mossan",
+  "value" : ["/ships/mossan/mossanT0.structure", "/ships/mossan/mossanT1.structure", "/ships/mossan/mossanT2.structure", "/ships/mossan/mossanT3.structure", "/ships/mossan/mossanT4.structure", "/ships/mossan/mossanT5.structure", "/ships/mossan/mossanT6.structure", "/ships/mossan/mossanT7.structure", "/ships/mossan/mossanT8.structure"]
+  }
+]

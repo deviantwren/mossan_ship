@@ -1,0 +1,58 @@
+{
+  "objectName" : "mossanpropulsion",
+  "colonyTags" : [],
+  "scannable" : false,
+  "rarity" : "Common",
+  "description" : "I wonder how quickly that would cook a burger.",
+  "shortdescription" : "Booster Flame",
+  "race" : "mossan",
+
+  "apexDescription" : "A booster. These have been known to malfunction and explode.",
+  "avianDescription" : "A booster, the wings of a ship.",
+  "floranDescription" : "Ssscary fire.",
+  "glitchDescription" : "Analyse. Temperature too high to measure.",
+  "humanDescription" : "This thing eats through fuel.",
+  "hylotlDescription" : "Propulsion.",
+
+  "category" : "light",
+  "lightColor" : [203, 255, 178],
+  "pointLight" : true,
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.5,
+
+  "flickerTiming" : 0.2,
+  "flickerPeriod" : 0.4,
+  "flickerPeriodVariance" : 0.1,
+
+  "inventoryIcon" : "mossanpropulsionicon.png",
+  "orientations" : [
+    {
+      "image" : "mossanpropulsion.png:on.1",
+      "imagePosition" : [-8, -2],
+      "fullbright" : true,
+
+      "collision" : "solid",
+      "spaces" : [ [-2, 1], [-2, 0], [-2, -1], [-1, 1], [-1, 0], [-1, -1], [0, 1], [0, 0], [0, -1], [1, 1], [1, 0], [1, -1] ],
+      "anchors" : [ "right" ],
+      "direction" : "right"
+    }
+  ],
+
+  "animation" : "/objects/ship/boosters/boosterflame.animation",
+  "animationParts" : {
+    "booster" : "mossanpropulsion.png"
+  },
+  "animationPosition" : [-8, -2],
+
+  "soundEffect" : "/sfx/environmental/arid_underground.ogg",
+
+  "scripts" : ["/objects/ship/boosters/boosterflame.lua"],
+  "scriptDelta" : 10,
+
+  "flyingBoosterStates" : {
+    "none" : "off",
+    "disembarking" : "off",
+    "warp" : "turnOn",
+    "arriving" : "turnOff"
+  }
+}

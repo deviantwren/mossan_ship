@@ -1,0 +1,60 @@
+{
+  "objectName" : "mossanshiplockerTier0",
+  "colonyTags" : ["mossan","storage"],
+  "printable" : false,
+  "rarity" : "Common",
+  
+  "category" : "decorative",
+  "description" : "A locker. Store some stuff, why don't you?",
+  "shortdescription" : "Shiplocker",
+  "race" : "mossan",
+  "lightColor" : [22, 33, 62],
+
+  "apexDescription" : "An offline storage system very likely.",
+  "avianDescription" : "I don't feel comfortable on this ship.",
+  "floranDescription" : "Floran pound on sstatic sscreen.",
+  "glitchDescription" : "Curious. Who designed this technology?",
+  "humanDescription" : "Most of the tech on this ship doesn't appear to be of an origin that I am familiar with.",
+  "hylotlDescription" : "An elegant storage solution. It's not currently powered.",
+  "novakidDescription" : "A locker. Ain't much use 'til it's fixed.",
+
+  "particleEmitter" : {
+    "emissionRate" : 1,
+    "pixelOrigin" : [15, -15],
+
+    "particle" : {
+      "type" : "textured",
+      "image" : "/objects/ship/emid.png",
+      "size" : 1,
+      "color" : [255, 255, 255, 255],
+      "fade" : 0.0,
+      "initialVelocity" : [0.0, 0],
+      "finalVelocity" : [0.0, 0],
+      "approach" : [0, 0],
+      "timeToLive" : 0.5,
+      "layer" : "front",
+      "fullbright" : true
+    }
+  },
+
+  "inventoryIcon" : "mossanshiplockericonTier0.png",
+  "orientations" : [
+    {
+        "image" : "mossanshiplockerTier0.png:<color>.<frame>",
+        "imagePosition" : [-8, -8],
+        "frames" : 22,
+        "animationCycle" : 2.0,
+        "spaceScan" : 0.1,
+        "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "/objects/noisy/noisy.animation",
+
+  "scripts" : [
+    "/objects/noisy/noisy.lua"
+  ],
+  
+  "sounds" : [ "/sfx/interface/ship_error1.ogg" ]
+  
+}

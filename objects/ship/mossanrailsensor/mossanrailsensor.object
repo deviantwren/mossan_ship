@@ -1,0 +1,37 @@
+{
+  "objectName" : "mossanrailsensor",
+  "rarity" : "Common",
+  "description" : "An access panel for the sensor.",
+  "shortdescription" : "Sensor Access Panel",
+  "race" : "mossan",
+  "lightColor" : [42, 90, 214],
+
+  "flickerPeriod" : 0.5,
+  "flickerMinIntensity" : 0.0,
+  "flickerMaxIntensity" : 0.4,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0,
+
+  "apexDescription" : "Loot! Oh, no, just an access panel.",
+  "avianDescription" : "I don't have time to jury rig an access panel.",
+  "floranDescription" : "Blink. Blink. Like Glitch flickering out.",
+  "glitchDescription" : "Observation. Sensor Access Panel.",
+  "humanDescription" : "A blinking access panel.",
+  "hylotlDescription" : "A sensor panel suggests higher brain function than a Floran.",
+  
+  "breakDropOptions" : [],
+
+  "inventoryIcon" : "mossanrailsensoricon.png",
+  "orientations" : [
+    {
+	  "imageLayers" : [ { "image" : "mossanrailsensor.png:<color>.<frame>", "fullbright" : true }, { "image" : "mossanrailsensorlit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-2, 0],
+      "frames" : 32,
+      "animationCycle" :2,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

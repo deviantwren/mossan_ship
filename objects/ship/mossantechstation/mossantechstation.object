@@ -1,0 +1,69 @@
+{
+  "objectName" : "mossantechstation",
+  "colonyTags" : ["mossan"],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "interactAction" : "OpenAiInterface",
+
+  "category" : "decorative",
+  "lightColor" : [41, 81, 183],
+  "lightPosition" : [-1, 0],
+
+  "description" : "A Minimalistic Technology Station of Mossan design.",
+  "shortdescription" : "M.T.S",
+  "race" : "mossan",
+
+  "apexDescription" : "A functional tech station? Let's see if I can understand the interface.",
+  "avianDescription" : "Perhaps I can use this. It appears to be a tech station.",
+  "floranDescription" : "Floran bang on flashy lights. Fun!",
+  "glitchDescription" : "Perplexed. Who designed this tech station?",
+  "humanDescription" : "A tech station, I believe.",
+  "hylotlDescription" : "It appears to be an operational tech station.",
+  "novakidDescription" : "This here station let's me talk with technology.",
+
+  "inventoryIcon" : "mossantechstationicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "mossantechstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "mossantechstationlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, 0],
+      "frames" : 24,
+      "animationCycle" : 2.2,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ],
+
+  "offeredQuests" : [ "gaterepair" ],
+
+  "animation" : "/objects/ship/techstation.animation",
+  "scripts" : [
+    "/objects/spawner/techstation.lua"
+  ],
+  "scriptDelta" : 20,
+  "shipPetType" : "petcat",
+  "spawnOffset" : [2, -1],
+
+  "chatPortrait" : "/ai/portraits/mossanportrait.png:yell.1",
+  "dialog" : {
+    "wakeUp" : [
+      [ "Rebooting...", "/ai/portraits/mossanportrait.png:unique.1" ],
+      [ "Technology Station Alert.", "/ai/portraits/mossanportrait.png:talk.0" ],
+      [ "...", "/ai/portraits/mossanportrait.png:talk.1" ],
+      [ "Earth has been annihilated.", "/ai/portraits/mossanportrait.png:talk.0" ],
+      [ "The escape pod's locational and navigation systems are offline.", "/ai/portraits/mossanportrait.png:talk.1" ]
+    ],
+    "wakePlayer" : [
+      [ "Technology station malfunction in astronomical branch 10 subroutines.", "/ai/portraits/mossanportrait.png:unique.1"],
+      [ "Access troubleshooting manual to proceed.", "/ai/portraits/mossanportrait.png:unique.1"],
+      [ "I: ...", "/ai/portraits/mossanportrait.png:unique.1"],
+      [ "Code error cascading to Hive Mind Mainframe.", "/ai/portraits/mossanportrait.png:unique.1" ],
+      [ "Code corruption detected.", "/ai/portraits/mossanportrait.png:unique.1"],
+      [ "Hive Mind Mainframe repairing code error cascade...", "/ai/portraits/mossanportrait.png:unique.1" ]
+    ]
+  },
+
+  "uniqueId" : "techstation"
+}

@@ -1,0 +1,54 @@
+{
+  "objectName" : "mossanfuelhatch",
+  "colonyTags" : ["mossan"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+  "description" : "Accepts Liquid Erchius as fuel for the ship's FTL dive.",
+  "shortdescription" : "FTL Fuel Hatch",
+  "race" : "mossan",
+  "lightColor" : [42, 214, 171],
+
+  "flickerPeriod" : 0.7,
+  "flickerMinIntensity" : 0.2,
+  "flickerMaxIntensity" : 0.5,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0,
+
+  "apexDescription" : "Stealing fuel is freedom.",
+  "avianDescription" : "Spare fuel perchance?",
+  "floranDescription" : "Blink-pulsse. Blink-pulsse. Like veins. Pulsse. Blood.",
+  "glitchDescription" : "Devious. When they're not looking...we could steal some.",
+  "humanDescription" : "A fuel panel. An interesting one.",
+  "hylotlDescription" : "Hmph. Do they have fuel? I could borrow some.",
+  "novakidDescription" : "FTL fuel goes in there! Gas! Gas!",
+
+  "inventoryIcon" : "mossanfuelhatchicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "mossanfuelhatch.png:<color>.<frame>", "fullbright" : true }, { "image" : "mossanfuelhatchlit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-8, -8],
+      "frames" : 4,
+      "animationCycle" : 0.7,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "hasWindowIcon" : false,
+  "recipeGroup" : "fuel",
+  "slotCount" : 6,
+  "uiConfig" : "/interface/fuel/fuel.config",
+  "autoCloseCooldown" : 3600,
+  "frameCooldown" : 5,
+
+  "itemTags" : [ "newfuelhatch" ],
+
+  "scripts" : ["/stagehands/radiomessage.lua"],
+  "scriptDelta" : 30,
+  "broadcastArea" : [-5, -5, 5, 5],
+  "radioMessage" : "fuel"
+
+}

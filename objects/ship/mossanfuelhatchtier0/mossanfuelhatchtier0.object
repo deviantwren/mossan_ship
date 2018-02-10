@@ -1,0 +1,49 @@
+{
+  "objectName" : "mossanfuelhatchtier0",
+  "colonyTags" : ["mossan"],
+  "printable" : false,
+  "rarity" : "Common",
+  
+  "description" : "A broken FTL fuel hatch. This won't do!",
+  "shortdescription" : "Broken FTL Fuel Hatch",
+  "race" : "mossan",
+  "lightColor" : [214, 163, 42],
+
+  "flickerPeriod" : 0.2,
+  "flickerMinIntensity" : 0.0,
+  "flickerMaxIntensity" : 0.5,
+  
+  "apexDescription" : "Hah. Sabotaged. Augh! Flees!",
+  "avianDescription" : "That is annoying. Stop making noise!",
+  "floranDescription" : "Flicker-flicker! Bzz-bzz. Like dying glitch. Glitch-glitch.",
+  "glitchDescription" : "Analytical. It's broken and annoying. They must be bad.",
+  "humanDescription" : "An access panel. It's alerting that there are issues apparently.",
+  "hylotlDescription" : "Fuel is the lifeblood of exploration.",
+  "novakidDescription" : "That's the source of the noise it would seem.",
+
+  "inventoryIcon" : "mossanfuelhatchtier0icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "mossanfuelhatchtier0.png:<color>.<frame>", "fullbright" : true }, { "image" : "mossanfuelhatchtier0lit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-8, -8],
+      "frames" : 8,
+      "animationCycle" : 0.2,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  
+  "soundEffect" : "/sfx/instruments/bones/a6.ogg",
+  "soundEffectRangeMultiplier" : 0.5,
+
+  "animation" : "/objects/noisy/noisy.animation",
+
+  "scripts" : [
+    "/objects/noisy/noisy.lua"
+  ],
+  
+  "sounds" : [ "/sfx/interface/clickon_error.ogg" ]
+  
+}

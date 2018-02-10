@@ -1,0 +1,7 @@
+[
+  {
+    "op": "add",
+    "path": "/lichereDescription",
+    "value": "That's my ship!"
+  }
+]

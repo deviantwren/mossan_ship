@@ -1,0 +1,26 @@
+[
+  {
+  "op" : "add",
+  "path" : "/mossanStarterTreasure",
+  "value" : [
+      [0, {
+      "fill" : [
+        {"pool" : "starterTreasure" },
+        {"item" : [ "mossanshipdoor", 1]},
+        {"item" : [ "rainbowgourdseed", 2]},
+        {"item" : [ "bonerootseed", 2]},
+        {"item" : [ "creeprootseed", 2]},
+        {"item" : [ "driporbseed", 2]},
+        {"item" : [ "inkbulbseed", 2]},
+        {"item" : [ "stickpulpseed", 2]},
+        {"item" : [ "wallclingseed_dk", 2]},
+        {"item" : [ "wallclingseed_lt", 2]},
+        {"item" : [ "mn_tier0beam", 1]},
+        {"item" : [ "mossanchampionflag", 1]},
+        {"item" : [ "mn_tier0bow", 1]}
+
+      ]
+    } ]
+  ]
+  }
+]
